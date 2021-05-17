@@ -13,6 +13,7 @@ We reproduced the results using the following implementations that were implemen
 1. Yitong Ji, Aixin Sun, Jie Zhang, Chenliang Li (2020). [A Critical Study on Data Leakage in Recommender System Offline Evaluation](https://arxiv.org/abs/2010.11060).[github](https://github.com/dataLeakageRec/dataLeakageRec)
 
 **Neural Collaborative Filtering Folder**
+
 2. [A Critical Study on Data Leakage in Recommender System Offline Evaluation](https://arxiv.org/abs/2010.11060) adopted the implementation from the authors Xiangnan He, Lizi Liao, Hanwang Zhang, Liqiang Nie, Xia Hu and Tat-Seng Chua (2017) Neural Collaborative Filtering [Paper](https://arxiv.org/abs/1708.05031), [github](https://github.com/hexiangnan/) and verified that the code is able to reproduce the results in the original paper if following their experimental settings.
 
 
