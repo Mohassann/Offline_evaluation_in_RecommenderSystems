@@ -1,4 +1,4 @@
-# Offline_evaluation_in_recommenderSystems
+# Offline_Evaluation_in_RecommenderSystems
 
 **What is the impact of data leakage in recommendation? Are we expecting better recommendation accuracy by using more “future data” in training? 
 To what extent can we compare model performance if data leakage exists in offline evaluation?**
@@ -22,3 +22,9 @@ They adopted the implementation from the authors Xiangnan He, Lizi Liao, Hanwang
 # **Dataset used**
 - Movielens-25M
 - Amazon-music
+
+
+## **Environment setting**
+- Tensorflow 1.14
+- Python 3.6.9
+- Keras 2.3.0
