@@ -16,12 +16,12 @@ We reproduced the results using the following implementations that were implemen
 2. [A Critical Study on Data Leakage in Recommender System Offline Evaluation](https://arxiv.org/abs/2010.11060) adopted the implementation from the authors Xiangnan He, Lizi Liao, Hanwang Zhang, Liqiang Nie, Xia Hu and Tat-Seng Chua (2017) Neural Collaborative Filtering [Paper](https://arxiv.org/abs/1708.05031), [github](https://github.com/hexiangnan/) and verified that the code is able to reproduce the results in the original paper if following their experimental settings.
 
 
-# **Models**
+## **Models**
 - Bayesian Personalized Ranking(BPR) 
 - Neural Matrix Factorization (NueMF)
 
 
-# **Dataset used**
+## **Dataset used**
 - Movielens-25M
 - Amazon-music
 
@@ -32,16 +32,15 @@ We reproduced the results using the following implementations that were implemen
 | ------- | ------- | --------------- | ----------|----- |
 | ------- | ------- | --------------- | ----------|----- |
 
+***
 
 ##  Data Leakage folder
-#### **Environment setting for the Data Leakage folder**
+### **Environment setting for the Data Leakage folder**
 - Tensorflow 1.14
 - Python 3.6.9
 - Keras 2.3.0
 
-***
-
-#### **Example to run the codes in the Data Leakage Folder**
+### **Example to run the codes in the Data Leakage Folder**
 
 - For Running the NeuMF model:
 
@@ -58,15 +57,15 @@ python test.py --path [path of the data folder] --data movielens --selected_year
 
 ## Neural Collaborative Filtering Folder
 
-#### **Environment setting for the Neural Collaborative Filtering folder**
+### **Environment setting for the Neural Collaborative Filtering folder**
 They use Keras with Theano as the backend.
 
 - Keras version: '1.0.7'
 - Theano version: '0.8.0'
 
-***
 
-##### **Example to run the codes in the Neural Collaborative Filtering Folder**
+
+#### **Example to run the codes in the Neural Collaborative Filtering Folder**
 
 - For Running the NeuMF model((without pre-training)):
 
