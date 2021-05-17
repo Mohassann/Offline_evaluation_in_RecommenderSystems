@@ -23,6 +23,13 @@ They adopted the implementation from the authors Xiangnan He, Lizi Liao, Hanwang
 - Movielens-25M
 - Amazon-music
 
+## Data format
+
+| User ID | Item ID | Rating (1 or 0) | Timestamp | Year | 
+| ------- |:-------:|:---------------:| ----------|----- |
+| ------- | ------- | --------------- | ----------|----- |
+| ------- | ------- | --------------- | ----------|----- |
+
 
 ## **Environment setting**
 - Tensorflow 1.14
