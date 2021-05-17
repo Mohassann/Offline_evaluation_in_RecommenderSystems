@@ -3,8 +3,9 @@
 - *What is the impact of data leakage in recommendation? Are we expecting better recommendation accuracy by using more “future data” in training?*
 - *To what extent can we compare model performance if data leakage exists in offline evaluation?*
 
-Mainly we focused on the impact of data leakage on Recommender Systems accuracy.
+___
 
+Mainly we focused on the impact of data leakage on Recommender Systems accuracy.
 
 We reproduced the results that were implemented by:
 
