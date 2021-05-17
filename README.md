@@ -29,6 +29,7 @@ They adopted the implementation from the authors Xiangnan He, Lizi Liao, Hanwang
 - Python 3.6.9
 - Keras 2.3.0
 
+***
 
 
 ### **Example to run the codes**
@@ -36,11 +37,12 @@ They adopted the implementation from the authors Xiangnan He, Lizi Liao, Hanwang
 - For Running the NeuMF model:
 
 ```python
-python NeuMF_test.py --path [path of the data folder]  --data movielens --selected_year 5 --num_years_added 0 --gpu 1 --regs 0.0001 --learning_rate 0.0001 --num_negatives 4 --mf_dim 64
+python NeuMF_test.py --path [path of the data folder]  --data movielens --selected_year 4 --num_years_added 0 --gpu 1 --regs 0.01 --learning_rate 0.001 --num_negatives 4 --mf_dim 64
 ```
 
 - For Running the BPR model:
 
 ```python
-python test.py --path [path of the data folder] --data movielens --selected_year 5 --num_years_added 0 --gpu 1 --factors 64 --learning_rate 0.00001 --reg 0.00001
+python test.py --path [path of the data folder] --data movielens --selected_year 4 --num_years_added 0 --gpu 1 --factors 64 --learning_rate 0.001 --reg 0.01
 ```
+***
