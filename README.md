@@ -8,7 +8,7 @@ Mainly we focused on the impact of data leakage on Recommender Systems accuracy.
 
 We reproduced the results that were implemented by:
 
-Yitong Ji, Aixin Sun, Jie Zhang, Chenliang Li (2020). [A Critical Study on Data Leakage in Recommender System Offline Evaluation](https://arxiv.org/abs/2010.11060#:~:text=In%20academic%20research%2C%20recommender%20models%20are%20often%20evaluated%20on%20offline%20datasets.&text=Many%20such%20offline%20evaluations%20ignore,value%2C%20making%20the%20evaluation%20unrealistic.).
+Yitong Ji, Aixin Sun, Jie Zhang, Chenliang Li (2020). [A Critical Study on Data Leakage in Recommender System Offline Evaluation](https://arxiv.org/abs/2010.11060).
 
 They adopted the implementation from the authors Xiangnan He, Lizi Liao, Hanwang Zhang, Liqiang Nie, Xia Hu and Tat-Seng Chua (2017) Neural Collaborative Filtering [Paper](https://arxiv.org/abs/1708.05031), [github](https://github.com/hexiangnan/) and verified that the code is able to reproduce the results in the original paper if following their experimental settings.
 
@@ -28,3 +28,10 @@ They adopted the implementation from the authors Xiangnan He, Lizi Liao, Hanwang
 - Tensorflow 1.14
 - Python 3.6.9
 - Keras 2.3.0
+
+
+
+For Running the NeuMF model:
+
+python NeuMF_test.py --path data/ --data movielens --selected_year 5 --num_years_added 0 --gpu 1 --regs 0.0001 --learning_rate 0.0001 --num_negatives 4 --mf_dim 64
+
