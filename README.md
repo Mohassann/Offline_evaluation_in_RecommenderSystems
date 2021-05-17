@@ -42,13 +42,13 @@ We reproduced the results using the following implementations that were implemen
 
 ### **Example to run the codes in the Data Leakage Folder**
 
-- For Running the NeuMF model:
+- For Running the **NeuMF** model:
 
 ```python
 python NeuMF_test.py --path [path of the data folder]  --data movielens --selected_year 4 --num_years_added 0 --gpu 1 --regs 0.01 --learning_rate 0.001 --num_negatives 4 --mf_dim 64
 ```
 
-- For Running the BPR model:
+- For Running the **BPR** model:
 
 ```python
 python test.py --path [path of the data folder] --data movielens --selected_year 4 --num_years_added 0 --gpu 1 --factors 64 --learning_rate 0.001 --reg 0.01
@@ -65,7 +65,7 @@ They use Keras with Theano as the backend.
 
 
 
-#### **Example to run the codes in the Neural Collaborative Filtering Folder**
+### **Example to run the codes in the Neural Collaborative Filtering Folder**
 
 - For Running the NeuMF model((without pre-training)):
 
