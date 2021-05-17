@@ -1,7 +1,7 @@
 # Offline_Evaluation_in_RecommenderSystems
 
-**What is the impact of data leakage in recommendation? Are we expecting better recommendation accuracy by using more “future data” in training? 
-To what extent can we compare model performance if data leakage exists in offline evaluation?**
+- *What is the impact of data leakage in recommendation? Are we expecting better recommendation accuracy by using more “future data” in training?*
+- *To what extent can we compare model performance if data leakage exists in offline evaluation?*
 
 Mainly we focused on the impact of data leakage on Recommender Systems accuracy.
 
@@ -33,5 +33,6 @@ They adopted the implementation from the authors Xiangnan He, Lizi Liao, Hanwang
 
 For Running the NeuMF model:
 
-Markup : python NeuMF_test.py --path data/ --data movielens --selected_year 5 --num_years_added 0 --gpu 1 --regs 0.0001 --learning_rate 0.0001 --num_negatives 4 --mf_dim 64
-
+```python
+python NeuMF_test.py --path data/ --data movielens --selected_year 5 --num_years_added 0 --gpu 1 --regs 0.0001 --learning_rate 0.0001 --num_negatives 4 --mf_dim 64
+```
