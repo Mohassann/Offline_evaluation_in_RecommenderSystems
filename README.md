@@ -14,4 +14,11 @@ They adopted the implementation from the authors Xiangnan He, Lizi Liao, Hanwang
 
 
 
-# *Models*
+# **Models**
+- Bayesian Personalized Ranking(BPR) 
+- Neural Matrix Factorization (NueMF)
+
+
+# **Dataset used**
+- Movielens-25M
+- Amazon-music
